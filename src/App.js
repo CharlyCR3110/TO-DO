@@ -4,13 +4,17 @@ import logo from './images/to-do logo.png'
 
 function App() {
   return (
-    <div className="App">
-      <div className="logoContainer">
+    <div className='App'>
+      <div className='logoContainer'>
         <img
           src={logo}
-          className="logo"
-          alt="The web logo"
+          className='logo'
+          alt='The web logo'
         />
+      </div>
+      <div className='mainTaskList'>
+        <h1>TO-DO</h1>
+        
       </div>
     </div>
   );
