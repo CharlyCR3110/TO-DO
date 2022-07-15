@@ -1,6 +1,6 @@
 import React from "react";
 import '../stylesheets/Task.css';
-
+import { AiOutlineCloseCircle } from "react-icons/ai";
 
 function Task({ texto }) {
 	return (
@@ -9,7 +9,7 @@ function Task({ texto }) {
 				{texto}
 			</div>
 			<div className="taskIcon">
-				Eliminar
+				<AiOutlineCloseCircle />
 			</div>
 		</div>
 	);
