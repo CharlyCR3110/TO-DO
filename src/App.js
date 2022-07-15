@@ -14,7 +14,6 @@ function App() {
       </div>
       <div className='mainTaskList'>
         <h1>TO-DO</h1>
-        
       </div>
     </div>
   );
