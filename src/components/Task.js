@@ -1,4 +1,6 @@
 import React from "react";
+import '../stylesheets/Task.css';
+
 
 function Task({ texto }) {
 	return (
