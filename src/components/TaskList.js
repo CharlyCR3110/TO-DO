@@ -1,5 +1,6 @@
 import React from 'React';
 import TaskForm from './TaskForm';
+import '../stylesheets/TaskList.css';
 
 function TaskList () {
   return (
