@@ -15,6 +15,7 @@ function App() {
       </div>
       <div className='mainTaskList'>
         <h1>TO-DO</h1>
+        <Task texto={'Aprender'} />
       </div>
     </div>
   );
