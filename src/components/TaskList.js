@@ -4,14 +4,17 @@ import Task from './Task';
 import '../stylesheets/TaskList.css';
 import { useState } from 'react';
 
-const addTask = task => {
-	console.log('Sexo');
-	console.log(task);
-};
-
 function TaskList () {
-
-	const [tasks, setTask] = useState([]);
+	
+	const [tasks, setTasks] = useState([]);
+	
+	const addTask = task => {
+		if (task.text.trim()) {
+			task.text = task.text.trim();
+			const updatedTasks = [task, ...tasks];
+			setTasks(updatedTasks);
+		}
+	};
 
   return (
 		<>
