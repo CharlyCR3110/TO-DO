@@ -9,7 +9,6 @@ function TaskForm (props) {
 
 	const changeHandler = e => {
 		setInput(e.target.value);
-		console.log(e.target.value);
 	};
 
 	const submitHandler = e => {
