@@ -8,8 +8,8 @@ function Task({ texto }) {
 			<div className='text'>
 				{texto}
 			</div>
-			<div className='taskIcon'>
-				<AiOutlineCloseCircle />
+			<div className='taskIconsContainer'>
+				<AiOutlineCloseCircle className='taskIcon'/>
 			</div>
 		</div>
 	);
