@@ -1,7 +1,6 @@
 import './App.css';
 import logo from './images/to-do logo.png';
-import Task from './components/Task';
-
+import TaskList from './components/TaskList';
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
       </div>
       <div className='mainTaskList'>
         <h1>TO-DO</h1>
-        <Task texto={'Aprender'} />
+        <TaskList />
       </div>
     </div>
   );
