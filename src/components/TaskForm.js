@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import '../stylesheets/TaskForm.css';
+import { v4 as uuidv4 } from 'uuid';
 
 function TaskForm (props) {
 
@@ -9,12 +10,12 @@ function TaskForm (props) {
 	const changeHandler = e => {
 		setInput(e.target.value);
 		console.log(e.target.value);
-	}
+	};
 
 	const submitHandler = e => {
 		e.preventDefault();
 		const newTask = {
-			id: '12',
+			id: uuidv4(),
 			text: input,
 			completed: false
 		}
