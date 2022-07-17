@@ -15,7 +15,7 @@ function TaskList () {
 
   return (
 		<>
-			<TaskForm />
+			<TaskForm onSubmit={addTask}/>
 			<div className='taskListContainer'>
 				{
 					tasks.map((task) =>
