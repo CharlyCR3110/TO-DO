@@ -10,9 +10,20 @@ function TaskForm (props) {
 		setInput(e.target.value);
 		console.log(e.target.value);
 	}
-	
+
+	const submitHandler = e => {
+		e.preventDefault();
+		const newTask = {
+			id: '12',
+			text: input,
+			completed: false
+		}
+	};
+
 	return (
-		<form className='taskForm'>
+		<form 
+			className='taskForm'
+			onSubmit={submitHandler}>
 			<input
 				onChange={changeHandler}
 				className='taskInput'
