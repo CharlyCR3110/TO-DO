@@ -12,6 +12,20 @@
 	cursor: pointer;
 }
 
+/* Colors */
+
+.taskContainer:nth-child(3n + 1) {
+	background-color: #1b1b32;
+}
+
+.taskContainer:nth-child(3n + 2) {
+	background-color: #2a2a40;
+}
+
+.taskContainer:nth-child(3n +31) {
+	background-color: #3b3b4f;
+}
+
 /* Text */
 .text {
 	width: 100%;
